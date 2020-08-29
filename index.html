@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="ecoleAPP">
+	<title>Coulart International scool</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="Jack YI">
+	<meta name="copyright" content="© Couleur Art" />
+	<meta name="description" content="Couleur Art">
+	<meta name="keywords" content="art, education, art-edu, culture, international, ecole">
+    <meta name="robots" content="index, follow">
+    <meta name="location" content="Paris, FRANCE">
+    <!-- logo aujouter -->
+    <link rel="icon" type="img/png" href="src/logo_src/logo_fr.png" />
+
+    <meta property="og:title" content="art, education, art-edu, culture, international, ecole"/>
+    <meta property="og:site-name" content="art, education, art-edu, culture, international, ecole"/>
+    <meta name="description" content="art, education, art-edu, culture, international, ecole"/>
+    <meta itemprop="name" content="art, education, art-edu, culture, international, ecole">
+    <meta itemprop="description" content="art, education, art-edu, culture, international, ecole ">
+<!-- *********************** -->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/menuBurger.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css-master/animate.css">
+<head>
+	<title></title>
+	<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/angular-1.8.0/angular.js"></script>
+		<script type="text/javascript" src="scripts/controller.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/animate.js"></script>
+
+	<!-- img path src/logo_src-->
+	<!-- img path src/img_src-->
+	<!-- translates path translates/content_chinese.json-->
+	<!-- translates path translates/content_francais.json-->
+</head>
+<body  ng-controller="ctrl_1">
+	<!-- 导航信息-->
+	<div id="header">
+		<div id="container_header">
+		<!-- logo图片和学校名字 -->
+			<div id="logo_title">
+				<!-- logo图片 -->
+				<div id="logo_img">
+					<img src="">
+				</div>
+				<!-- 学校名字 -->
+				<div id="ecole_name" ng-model="json1.a">
+					<p>{{language}}</p>
+				</div>
+			</div>
+			<!-- menu burger right-->
+			<div id="postionMenuBurger" class="animated pulse">
+       			<a id="hamburger-icon" href="#" title="Menu">
+        	    	<span class="line line-1"></span>
+        	    	<span class="line line-2"></span>
+        	    	<span class="line line-3"></span>
+        		</a>            
+    		</div>
+    		<!-- welcom and presenter -->
+    		<div>
+    			<div id="title_header">
+    				<p>欢迎来到古了</p>
+    			</div>
+    			<div id="sous_title_header">
+    				<p>转为你提供服务奥</p>
+    			</div>
+    			<div id="present_header">
+    				<p>谷乐艺术很棒的啊</p>
+    			</div>
+    		</div>
+    		<div id="button_more" class="button_more">
+    			<img src="">
+    		</div>
+    		<!-- background图片 -->
+			<div id="backgroundImg">
+				<div id="child" class="">
+					<img src="">
+				</div>
+				<div id="top_c" class="font_background">
+					<img src="">
+				</div>
+				<div id="mid_c" class="font_background">
+					<img src="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="cours">
+		<div id="container_cours">
+			<div id="cours_content">
+				<img src="">
+			</div>
+		</div>
+		<div id="cours_button_more" class="button_more">
+			<img src="">
+		</div>
+	</div>
+	<div id="footer">
+		<div id="container_footer">
+			<div class="float_left">
+				<!-- 国际视野 -->
+				<ul class="special">
+					<li class="spec_title">国际视野</li>
+					<li class="spec_content">blablabal</li>
+				</ul>
+				<!-- 体验式教学 -->
+				<ul class="special">
+					<li class="spec_title">体验式教学</li>
+					<li class="spec_content">哇三</li>
+				</ul>
+				<!-- 多方位提高艺术修养 -->
+				<ul class="special">
+					<li class="spec_title">多方位提高艺术修养</li>
+					<li class="spec_content">又是blabla</li>
+				</ul>
+			</div>
+			<div class="float_right">
+				<ul id="contact">
+					<li class="contact">paris</li>
+					<li class="contact">email</li>
+					<li class="contact">contant@lecole</li>
+				</ul>
+			</div>
+			<div id="footer_c" class="font_background">
+				<img src="">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
